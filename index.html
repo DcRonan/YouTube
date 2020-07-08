@@ -14,26 +14,26 @@
 
     <nav id="nav-bar">
         <ul>
-            <li>
+            <li style="float: left;">
                 <a href="">
                     <img src="images/youtube.png" alt="home-logo">
                 </a>
             </li>
             <li>
-                <input id="search-bar" type="search" width="20%">
-                <button type="submit"><i class="fas fa-search"></i></button>
+                <input id="search-bar" type="search">
+                <button id="search-button" type="submit"><i class="fas fa-search"></i></button>
             </li>
-            <li style="float: right;">
+            <li class="top-icons" style="float: right;">
                 <a href="">
                     <i class="fas fa-user-circle"></i>
                 </a>
             </li>
-            <li style="float: right;">
+            <li class="top-icons" style="float: right;">
                 <a href="">
                     <i class="fas fa-bell"></i>
                 </a>
             </li>
-            <li style="float: right;">
+            <li class="top-icons" style="float: right;">
                 <a href="">
                     <i class="fas fa-th"></i>
                 </a>
@@ -44,7 +44,7 @@
         <iframe id="video" width="1001" height="562" src="https://www.youtube.com/embed/hu-q2zYwEYs" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div class="flex-box" id="video-details">
-            <h2> HTML & CSS Crash Course Tutorial #1 - Introduction </h2>
+            <label id="video-title"> HTML & CSS Crash Course Tutorial #1 - Introduction </label>
             <h4> 256,469 views - 10 Aug 2018 </h4>
         </div>
         <div class="flex-box" id="video-buttons">
@@ -113,11 +113,12 @@
     <aside class="flex-container-aside">
         <div id="autoplay-section">
             <ul>
-                <li class="sidebar-left">
+                <li style="float: left";>
                     Up next
                 </li>
-                <li class="sidebar-right">
+                <li style="float: right;">
                     AUTOPLAY
+                    <i class="fas fa-toggle-on"></i>
                 </li>
             </ul>
         </div>
