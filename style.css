@@ -1,0 +1,16 @@
+.video-preview{
+    height: 100px;
+    width: 190px;
+}
+
+.flex-container{
+    align-items: stretch;
+    float: left;
+   
+}
+
+.flex-container-aside{
+    align-items: stretch;
+    float: right;
+    
+}
