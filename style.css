@@ -66,7 +66,7 @@ main {
 }
 
 #video {
-    width: 75vw;
+    width: 68vw;
 }
 
 li, a, i {
@@ -104,6 +104,7 @@ h4 {
 
 .fa-icon-styling{
     margin: 0 8px 0 8px;
+    color: rgb(85, 85, 83);
 }
 
 #user-details {
@@ -139,4 +140,24 @@ h4 {
     color: royalblue;
     border: royalblue solid 1px;
     background-color: white;
+}
+
+.aside-video-text{ 
+     float: right; 
+     display: inline-block;  
+
+}
+
+#next-video{
+  
+  border-bottom: 1px solid black;
+    
+}
+
+.aside-box{
+    margin: 5px 0 5px 0;
+}
+
+#second-video{
+    margin-top: 10px;
 }
