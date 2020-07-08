@@ -55,8 +55,13 @@ main {
     margin: 70px 15px 0 0;
 }
 
-#video-buttons, #video-description{
-    border-bottom: 1px rgb(12, 12, 11) solid;
+ #video-description{  
+    border-bottom: solid 1px  rgb(12, 12, 11) ;  
+}
+
+#video-text{
+    border-top: solid 1px  rgb(12, 12, 11) ;  
+}
 }
 
 #video {
@@ -78,6 +83,7 @@ li, a, i {
 
 #video-details {
     margin: 15px 0 15px 0;
+   
 }
 
  #video-title {
@@ -86,4 +92,26 @@ li, a, i {
 
 h4 {
     margin-top: 10px;
+}
+
+.user-picture{
+    height: 40px;
+    width: 40px;
+    border-radius: 2%;
+}
+
+#video-buttons{
+  /* top: 0; */
+
+}
+
+#description-buttons{
+    margin-top: -20px;
+   
+}
+
+.fa-icon-styling{
+
+    margin: 0 8px 0 8px;
+    
 }
