@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/playbutton.png" type="favicon/png">
+    <script src="https://kit.fontawesome.com/867f1dd431.js" crossorigin="anonymous"></script>
+</head>
+<body class="container">
+
+    <nav id="nav-bar">
+         <ul>
+             <li>
+                 <a href="">
+                     <img src="images/youtube.png" alt="home-logo">
+                 </a>
+             </li>
+             <li>
+                 <input type="search" width="20%">
+                 <button type="submit"><i class="fas fa-search"></i></button>
+             </li>
+             <li style="float: right;">
+                 <a href="">
+                    <i class="fas fa-user-circle"></i>
+                 </a>
+             </li>
+             <li style="float: right;">
+                <a href="">
+                    <i class="fas fa-bell"></i>
+                </a>
+            </li>
+            <li style="float: right;">
+                <a href="">
+                    <i class="fas fa-th"></i>
+                </a>
+            </li>
+         </ul>
+    </nav>
+    <main class="flex-container">
+        <iframe id="video" width="1001" height="562" src="https://www.youtube.com/embed/hu-q2zYwEYs" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="flex-box" id="video-details">
+            <h2> HTML & CSS Crash Course Tutorial #1 - Introduction </h2>
+            <h4> 256,469 views - 10 Aug 2018 </h4>
+        </div>
+        <div class="flex-box" id="video-buttons">
+              <ul>
+                  <li>
+                      <a href="">
+                        <i class="fas fa-thumbs-up">5K</i>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="">
+                        <i class="fas fa-thumbs-down">25</i>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="">
+                        <i class="fas fa-share">SHARE</i>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="">
+                        <i class="fas fa-plus-square">SAVE</i>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="">
+                        <i class="fas fa-ellipsis-h"></i>
+                      </a>
+                  </li>
+              </ul>
+        </div>
+        <div class="flex-box" id="video-description">
+               <div id="user-details">
+                   <h4>
+                       The Net Ninja
+                       <i class="fas fa-check-circle"></i>
+                   </h4>
+                   <h5>608K subscribers</h5>
+               </div>
+               <div id="description-buttons">
+                   <button> JOIN </button>
+                   <button> SUBSCRIBE </button>
+               </div>
+               <div id="video-text">
+                Hey gang & welcome to your very first HTML & CSS tutorial. Throughout this crash course series I'll take you from total beginner to create great-looking sites with HTML & CSS. In this video, we'll cover what HTML & CSS are, as well as setting up our dev environment. <br>
+
+                ---------------------------------------- <br>
+                
+                🐱‍💻 🐱‍💻 Course Links: <br>
+                
+                + Course files - https://github.com/iamshaunjp/html-an... <br>
+                
+                + Complete React Course - https://www.youtube.com/playlist?list... <br>
+                
+                + React Context Docs - https://reactjs.org/docs/context.html <br>
+                SHOW MORE..
+               </div>               
+        </div>
+        <div id="comments" class="flex-box">
+            <h3> 255 Comments </h3>
+        </div>
+    </main>
+    
+</body>
+</html>
