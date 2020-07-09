@@ -9,6 +9,7 @@ body {
     display: flex;
     background-color: white;  
     margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
@@ -23,18 +24,17 @@ main {
     background-color: rgb(246, 250, 249);   
     text-align: center;
     margin: auto;
-    padding: 2px;
 }
 
 #search-bar {
     margin-top: 15px;
     width: 40%;
-    padding: 4px;
+    padding: 6px;
 }
 
 #search-button {
     margin-left: -4px;
-    padding: 4px;
+    padding: 6px;
     cursor: pointer;
 }
 
@@ -49,8 +49,6 @@ main {
 }
 
 .flex-container-aside{
-    /* align-items: stretch;
-    float: right; */
     width: 100%;
     margin: 70px 15px 0 0;
 }
@@ -66,7 +64,7 @@ main {
 }
 
 #video {
-    width: 68vw;
+    width: 68v; 
 }
 
 li, a, i {
@@ -117,7 +115,7 @@ h4 {
 #user-text {
     float: right;
     position: inherit;
-    margin : 0 0 0 -10px;    
+    margin: -5px 0 0 -5px;
     /* margin: -7px 2px 0 2px; */   
 }
 
@@ -150,7 +148,8 @@ h4 {
 .aside-video-text{    
      display: inline-block;      
      position: inherit;
-     /* margin-left: 10px; */
+     margin: auto;
+     font-size: 15px;     
 }
 
 #next-video{
@@ -170,9 +169,9 @@ h4 {
 }
 
 #home-logo {
-    width: 77px;
-    height: 48px;
-    margin-top: 5px;
+    width: 87px;
+    height: 54px;
+    margin-top: 3px;
 }
 
 .aside-video-text:hover {
@@ -192,10 +191,16 @@ h4 {
     border-bottom: gray 4px solid;
     padding: 1px;
 }
-
-
     
 .views-style{
     color: rgb(116, 113, 113);
     font-weight: lighter;
+}
+
+.top-icons {
+    margin-top: -30px;
+}
+
+.two-icons {
+    margin-top: -4px;
 }
