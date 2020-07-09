@@ -20,7 +20,7 @@ body {
 
 main {
     margin-left: 10px;
-    padding: 20px;
+    padding: 10px;
 }
 
 nav {
@@ -75,7 +75,8 @@ nav {
 }
 
 .video {
-    width: 68v; 
+    width: 68v;
+    border: white 1px solid; 
 }
 
 li, a, i {
