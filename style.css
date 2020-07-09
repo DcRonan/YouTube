@@ -23,7 +23,7 @@ main {
     padding: 20px;
 }
 
-#nav-bar {
+nav {
     position: fixed;
     top: 0!important;
     width: 100%;
@@ -32,17 +32,16 @@ main {
     margin: auto;
 }
 
-#search-bar {
+.search-bar {
     margin-top: 15px;
     width: 40%;
     padding: 8px;
     border: gray solid 1px;
 }
 
-#search-button {
+.search-button {
     margin-left: -4px;
     padding: 8px 25px 8px 25px;
-    cursor: pointer;
     border: gray solid 1px;
 }
 
@@ -65,17 +64,17 @@ main {
     margin: 70px 15px 0 0;
 }
 
- #video-description{  
+ .video-description{  
     border-bottom: solid 1px  rgb(12, 12, 11) ;  
     border-top: solid 1px  rgb(12, 12, 11) ; 
     margin-top: 20px; 
 }
 
-#video-text{
+.video-text{
     margin-left: 63px;
 }
 
-#video {
+.video {
     width: 68v; 
 }
 
@@ -83,24 +82,25 @@ li, a, i {
     list-style: none;
 }
 
-#autoplay-section{
+.autoplay-section{
     margin-bottom: 25px;
 }
 
 .fa-toggle-on {
     color: rgb(66, 66, 242);
-    cursor: pointer;
-
+    float: right;
 }
 
-#video-details {
+#autoplay-text {
+    float: right;
+}
+
+.video-details {
     margin: 15px 0 15px 0;
-   
 }
 
- #video-title {
+ .video-title {
     font-size: 22px;
-    cursor: pointer;    
 }
 
 h4 {
@@ -112,44 +112,43 @@ h4 {
     width: 40px;
     border-radius: 2%;
     display: inline block;
-    
 }
 
 .fa-icon-styling{
     margin: 0 8px 0 8px;
     color: rgb(85, 85, 83);
+    float: right;
 }
 
-#user-details {
+.user-details {
     margin: 10px 0 10px 0;
     width: 20%;
-    cursor: pointer;
 }
 
-#user-text {
+.user-text {
     float: right;
     position: inherit;
     margin: -5px 0 0 -5px;
 }
 
-#comments {
+.comments {
     margin-top: 10px;
 }
 
-#description-buttons {
+.description-buttons {
    margin-top: -50px;
+   float: right;
 }
 
 .video-button {
     padding: 8px;
     margin: 0 5px 0 5px;
-    cursor: pointer;
 }
 
 #sub-button {
     color: white;
     background-color: rgb(224, 16, 16);
-    border: rgb(215, 50, 50) solid 1px;
+    border: rgb(224, 16, 16) solid 1px;
     font-weight: 600;
 }
 
@@ -158,7 +157,7 @@ h4 {
     border: royalblue solid 1px;
     background-color: white;
     font-weight: 550;
-     padding:  8px 15px 8px 15px ;
+    padding:  8px 15px 8px 15px ;
 } 
 
 .aside-video-text{    
@@ -168,36 +167,26 @@ h4 {
      font-size: 15px;       
 }
 
-#next-video{
-  
+.next-video{
   border-bottom: 1px solid black;
-    
-}
-
-.aside-box{
-    cursor: pointer;
 }
 
 #second-video{
     margin-top: 10px;
 }
 
-#home-logo {
+.home-logo {
     width: 87px;
     height: 54px;
     margin: 3px 0 0 20px;
+    float: left;
 }
 
 .aside-video-text:hover {
     text-decoration: underline;
 }
 
-#next-video {
-    cursor: pointer;
-}
-
 #show-more {
-    cursor: pointer;
     color: rgb(116, 113, 113);
     font-weight: bolder;
 }
@@ -206,13 +195,14 @@ h4 {
     padding: 1px;
 }
     
-.views-style{
+.views{
     color: rgb(116, 113, 113);
     font-weight: lighter;
 }
 
 .top-icons {
     margin-top: -30px;
+    float: right;
 }
 
 .two-icons {
@@ -227,4 +217,19 @@ h4 {
 .text-3{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+#next-video, #show-more, .aside-box,
+.video-button, .user-details, .video-title, 
+.fa-toggle-on, .search-button
+ {
+    cursor: pointer;
+}
+
+.up-next {
+    float: left;
+}
+
+.views-style {
+    color: rgb(138, 138, 138);
 }

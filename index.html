@@ -12,28 +12,28 @@
 
 <body class="container">
 
-    <nav id="nav-bar">
+    <nav>
         <ul>
-            <li style="float: left;">
+            <li>
                 <a href="">
-                    <img id="home-logo" src="images/youtube.png" alt="home-logo">
+                    <img class="home-logo" src="images/youtube.png" alt="home-logo">
                 </a>
             </li>
             <li>
-                <input placeholder="Search" id="search-bar" type="search">
-                <button id="search-button" type="submit"><i class="fas fa-search"></i></button>
+                <input placeholder="Search" class="search-bar" type="search">
+                <button class="search-button" type="submit"><i class="fas fa-search"></i></button>
             </li>
-            <li class="top-icons" style="float: right;">
+            <li class="top-icons">
                 <a href="">
-                    <img class="two-icons margin-icons" src="images/user-icon.png" />
+                    <img class="two-icons" src="images/user-icon.png" />
                 </a>
             </li>
-            <li class="top-icons" style="float: right;">
+            <li class="top-icons" >
                 <a href="">
-                    <img class="two-icons margin-icons" src="images/bell.png" />
+                    <img class="two-icons" src="images/bell.png" />
                 </a>
             </li>
-            <li class="top-icons" style="float: right;">
+            <li class="top-icons">
                 <a href="">
                     <img src="images/squares.png" />
                 </a>
@@ -41,50 +41,50 @@
         </ul>
     </nav>
     <main class="flex-container">
-        <iframe id="video" width="1001" height="562" src="https://www.youtube.com/embed/hu-q2zYwEYs" frameborder="0"
+        <iframe class="video" width="1001" height="562" src="https://www.youtube.com/embed/hu-q2zYwEYs" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <div class="flex-box" id="video-details">
-            <label id="video-title"> HTML & CSS Crash Course Tutorial #1 - Introduction </label>
-            <h4 class="views-style"> 256,469 views - 10 Aug 2018 </h4>
+        <div class="video-details">
+            <label class="video-title"> HTML & CSS Crash Course Tutorial #1 - Introduction </label>
+            <h4 class="views"> 256,469 views - 10 Aug 2018 </h4>
             <ul>
 
                 <li>
                     <a href="">
-                        <i class="fas fa-ellipsis-h fa-icon-styling" style="float: right;"></i>
+                        <i class="fas fa-ellipsis-h fa-icon-styling"></i>
                     </a>
                 </li>
 
                 <li>
                     <a href="">
-                        <i class="fas fa-plus-square fa-icon-styling" style="float: right;"> SAVE</i>
+                        <i class="fas fa-plus-square fa-icon-styling"> SAVE</i>
                     </a>
                 </li>
 
                 <li>
                     <a href="">
-                        <i class="fas fa-share fa-icon-styling" style="float: right;"> SHARE</i>
+                        <i class="fas fa-share fa-icon-styling"> SHARE</i>
                     </a>
                 </li>
 
                 <li>
                     <a href="">
-                        <i class="fas fa-thumbs-down fa-icon-styling" style="float: right;"> 25</i>
+                        <i class="fas fa-thumbs-down fa-icon-styling"> 25</i>
                     </a>
                 </li>
 
                 <li>
                     <a href="">
-                        <i class="fas fa-thumbs-up fa-icon-styling" style="float: right;"> 5K</i>
+                        <i class="fas fa-thumbs-up fa-icon-styling"> 5K</i>
                     </a>
                 </li>
 
             </ul>
         </div>
 
-        <div class="flex-box" id="video-description">
-            <div id="user-details">
+        <div class="video-description">
+            <div class="user-details">
                 <img class="user-picture" src="images/user-logo.jpeg" alt="user_picture">
-                <div id="user-text">
+                <div class="user-text">
                     <h4>
                         The Net Ninja
                         <i class="fas fa-check-circle"></i>
@@ -92,11 +92,11 @@
                     <h5>608K subscribers</h5>
                 </div>
             </div>
-            <div style="float: right;" id="description-buttons">
+            <div class="description-buttons">
                 <button id="join-button" class="video-button"> JOIN </button>
                 <button id="sub-button" class="video-button"> SUBSCRIBE </button>
             </div>
-            <div id="video-text">
+            <div class="video-text">
                 Hey gang & welcome to your very first HTML & CSS tutorial. Throughout this crash course series I'll take
                 you from total beginner to create great-looking sites with HTML & CSS. In this video, we'll cover what
                 HTML & CSS are, as well as setting up our dev environment. <br>
@@ -114,18 +114,18 @@
                 <span id="show-more"> SHOW MORE.. </span>
             </div>
         </div>
-        <div id="comments" class="flex-box">
+        <div class="comments">
             <h3> 255 Comments </h3>
         </div>
 
     </main>
     <aside class="flex-container-aside">
-        <div id="autoplay-section">
+        <div class="autoplay-section">
             <ul>
-                <li style="float: left" ;>
+                <li class="up-next";>
                     Up next
                 </li>
-                <li style="float: right;" id="autoplay-button">
+                <li id="autoplay-text">
                     AUTOPLAY
                     <i class="fas fa-toggle-on"></i>
                 </li>
@@ -133,7 +133,7 @@
         </div>
 
         <div class="video-previews">
-            <div id="next-video">
+            <div class="next-video">
                 <img class="video-preview " src="images/video-screenshots/screenshot-1.png" alt="video-image">
                 <ul class="aside-video-text">
 
