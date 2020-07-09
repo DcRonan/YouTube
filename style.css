@@ -78,6 +78,7 @@ li, a, i {
 .fa-toggle-on {
     color: rgb(66, 66, 242);
     cursor: pointer;
+
 }
 
 #video-details {
@@ -86,8 +87,8 @@ li, a, i {
 }
 
  #video-title {
-    font-size: 24px;
-    cursor: pointer;
+    font-size: 22px;
+    cursor: pointer;    
 }
 
 h4 {
@@ -99,6 +100,7 @@ h4 {
     width: 40px;
     border-radius: 2%;
     display: inline block;
+    
 }
 
 .fa-icon-styling{
@@ -135,21 +137,24 @@ h4 {
 
 #sub-button {
     color: white;
-    background-color: rgb(215, 50, 50);
+    background-color: rgb(224, 16, 16);
     border: rgb(215, 50, 50) solid 1px;
+    font-weight: 600;
 }
 
 #join-button {
     color: royalblue;
     border: royalblue solid 1px;
     background-color: white;
-}
+    font-weight: 550;
+     padding:  8px 15px 8px 15px ;
+} 
 
 .aside-video-text{    
      display: inline-block;      
-     position: inherit;
+     position: initial;
      margin: auto;
-     font-size: 15px;     
+     font-size: 15px;       
 }
 
 #next-video{
@@ -203,4 +208,17 @@ h4 {
 
 .two-icons {
     margin-top: -4px;
+}
+.text-1{
+    /* margin-top: -10px; */
+}
+
+.text-2{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.text-3{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
