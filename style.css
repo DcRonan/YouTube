@@ -4,6 +4,12 @@
     margin: 0;
 }
 
+@media(max-width: 850px) {
+    body {
+        font-size: 80%;
+    }
+}
+
 body {
     width: 100%;
     display: flex;
@@ -29,13 +35,19 @@ main {
 #search-bar {
     margin-top: 15px;
     width: 40%;
-    padding: 6px;
+    padding: 8px;
+    border: gray solid 1px;
 }
 
 #search-button {
     margin-left: -4px;
-    padding: 6px;
+    padding: 8px 25px 8px 25px;
     cursor: pointer;
+    border: gray solid 1px;
+}
+
+.fa-search {
+    color: gray;
 }
 
 .video-preview{
@@ -164,9 +176,7 @@ h4 {
 }
 
 .aside-box{
-    margin: 5px 0 5px 0;
     cursor: pointer;
-    
 }
 
 #second-video{
@@ -176,7 +186,7 @@ h4 {
 #home-logo {
     width: 87px;
     height: 54px;
-    margin-top: 3px;
+    margin: 3px 0 0 20px;
 }
 
 .aside-video-text:hover {
@@ -208,9 +218,6 @@ h4 {
 
 .two-icons {
     margin-top: -4px;
-}
-.text-1{
-    /* margin-top: -10px; */
 }
 
 .text-2{
