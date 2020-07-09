@@ -89,6 +89,7 @@ li, a, i {
 
  #video-title {
     font-size: 24px;
+    cursor: pointer;
 }
 
 h4 {
@@ -109,12 +110,13 @@ h4 {
 
 #user-details {
     margin: 10px 0 10px 0;
-    width: 17%;
+    width: 20%;
+    cursor: pointer;
 }
 
 #user-text {
     float: right;
-    margin: -7px 2px 0 2px;
+    /* margin: -7px 2px 0 2px; */
 }
 
 #comments {
@@ -128,6 +130,7 @@ h4 {
 .video-button {
     padding: 8px;
     margin: 0 5px 0 5px;
+    cursor: pointer;
 }
 
 #sub-button {
@@ -143,9 +146,9 @@ h4 {
 }
 
 .aside-video-text{ 
-     float: right; 
      display: inline-block;  
-
+     position: fixed;
+     margin-left: 10px;
 }
 
 #next-video{
@@ -156,8 +159,32 @@ h4 {
 
 .aside-box{
     margin: 5px 0 5px 0;
+    cursor: pointer;
+    
 }
 
 #second-video{
     margin-top: 10px;
+}
+
+#home-logo {
+    width: 77px;
+    height: 48px;
+    margin-top: 5px;
+}
+
+.aside-video-text:hover {
+    text-decoration: underline;
+}
+
+#next-video {
+    cursor: pointer;
+}
+
+#show-more {
+    cursor: pointer;
+}
+.fa-thumbs-down, .fa-thumbs-up {
+    border-bottom: gray 4px solid;
+    padding: 1px;
 }
