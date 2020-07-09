@@ -33,7 +33,7 @@ main {
 }
 
 #search-button {
-    margin-left: -3px;
+    margin-left: -4px;
     padding: 4px;
     cursor: pointer;
 }
@@ -116,7 +116,9 @@ h4 {
 
 #user-text {
     float: right;
-    /* margin: -7px 2px 0 2px; */
+    position: inherit;
+    margin : 0 0 0 -10px;    
+    /* margin: -7px 2px 0 2px; */   
 }
 
 #comments {
@@ -145,10 +147,10 @@ h4 {
     background-color: white;
 }
 
-.aside-video-text{ 
-     display: inline-block;  
-     position: fixed;
-     margin-left: 10px;
+.aside-video-text{    
+     display: inline-block;      
+     position: inherit;
+     /* margin-left: 10px; */
 }
 
 #next-video{
@@ -183,8 +185,17 @@ h4 {
 
 #show-more {
     cursor: pointer;
+    color: rgb(116, 113, 113);
+    font-weight: bolder;
 }
 .fa-thumbs-down, .fa-thumbs-up {
     border-bottom: gray 4px solid;
     padding: 1px;
+}
+
+
+    
+.views-style{
+    color: rgb(116, 113, 113);
+    font-weight: lighter;
 }
