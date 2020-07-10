@@ -75,7 +75,7 @@ nav {
 }
 
 .video {
-    width: 68v;
+    width: 67vw;
     border: white 1px solid; 
 }
 
@@ -112,7 +112,7 @@ h4 {
     height: 40px;
     width: 40px;
     border-radius: 2%;
-    display: inline block;
+    
 }
 
 .fa-icon-styling{
@@ -157,7 +157,7 @@ h4 {
     color: royalblue;
     border: royalblue solid 1px;
     background-color: white;
-    font-weight: 550;
+    font-weight: 600;
     padding:  8px 15px 8px 15px ;
 } 
 
