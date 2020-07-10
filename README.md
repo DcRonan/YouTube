@@ -1,6 +1,6 @@
 # HTML & CSS: Embedding Images & Video 
 
-> In this project we created a clone of YouTube. You can check our live demo here: [YouTube Clone](https://raw.githack.com/DcRonan/YouTube/feature1/index.html)
+> In this project we created a clone of YouTube. You can check our live demo here: [YouTube Clone](https://raw.githack.com/DcRonan/YouTube/master/index.html)
 
 <img src="images/youtube-clone-home.png">
 
