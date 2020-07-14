@@ -4,14 +4,14 @@
 
 <img src="images/youtube-clone-home.png">
 
-## Live Demo
-
-[YouTube Clone](https://dcronan.github.io/YouTube/)
-
 ## Built With
 
 - HTML
 - CSS
+
+## Live Demo
+
+[YouTube Clone](https://dcronan.github.io/YouTube/)
 
 ## Authors
 
