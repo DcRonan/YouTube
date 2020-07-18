@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[YouTube Clone](https://dcronan.github.io/YouTube/)
+[YouTube Clone](https://dcronan.github.io/YouTube-Clone/)
 
 ## Authors
 
