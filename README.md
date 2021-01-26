@@ -1,6 +1,6 @@
 # HTML & CSS: Embedding Images & Video 
 
-> In this project we created a clone of a YouTube webpage. 
+> In this project, we created a clone of a YouTube webpage. 
 
 <img src="images/youtube-clone-home.png">
 
